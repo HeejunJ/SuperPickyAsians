@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuperPickyAsians — Eat where picky locals eat</title>
+<meta name="description" content="SuperPickyAsians: restaurant ratings from picky locals and travelers across Asia. Every rating shows how picky the person behind it is — so you skip the tourist traps.">
+<meta property="og:title" content="SuperPickyAsians — Eat where picky locals eat">
+<meta property="og:description" content="Restaurant ratings from picky locals, for travelers in Asia. 4,000+ award-listed restaurants in 29 cities.">
+<meta property="og:image" content="assets/logo.png">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#home" class="brand">SUPERPICKYASIANS</a>
+    <ul id="navList">
+      <li><a class="link" href="#about">About</a></li>
+      <li><a class="link" href="#picky-score">Picky Score</a></li>
+      <li><a class="link" href="#for-you">For You</a></li>
+      <li><a class="link" href="#community">Community</a></li>
+      <li><a class="link" href="#asia">Cities</a></li>
+      <li><a class="link" href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow">Restaurant ratings for travelers in Asia</div>
+    <h1 class="hero-name">SuperPickyAsians</h1>
+    <div class="hero-role">Eat where picky locals eat.</div>
+    <div class="hero-tagline">Every rating shows how picky the person behind it is — so the places that still get four stars from the hardest-to-please people rise to the top, and the tourist traps don't.</div>
+    <div class="rule"></div>
+    <div class="hero-tags">
+      <span>Picky Score</span>
+      <span>Personal match for every traveler</span>
+      <span>29 cities · 12 countries</span>
+    </div>
+    <div class="cta-row">
+      <a class="cta solid" href="#inside">See the app</a>
+      <a class="cta" href="#how">How it works</a>
+    </div>
+  </div>
+  <div class="hero-panel hero-phone-panel">
+    <img class="hero-phone" src="assets/app_reviews.png" alt="SuperPickyAsians app — Reviews tab showing Tokyo restaurants with country and city filters">
+    <span class="caption">ASIA · 2026</span>
+  </div>
+</header>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="pink-dot"></span>The Idea</div>
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <div class="about-bio">
+        <p>When you land somewhere new, the map is full of 4.6-star restaurants — and half of them are there because they're easy to find, not because they're good. Stars without context can't tell you who gave them.</p>
+        <p>SuperPickyAsians adds that context. Everyone who rates takes a short Picky test, so a generous traveler's five stars and a demanding local's four don't count the same. The result: a shortlist of places that the pickiest people still love — tuned to what <em>you</em> care about.</p>
+      </div>
+      <div class="about-facts">
+        <div class="fact">
+          <div class="flabel">Where</div>
+          <div class="fvalue">29 cities in 12 countries — Seoul, Tokyo, Osaka, Kyoto, Taipei, Hong Kong, Shanghai, Bangkok, Hanoi, Singapore, Kuala Lumpur, Bali, Manila, Mumbai and more</div>
+        </div>
+        <div class="fact">
+          <div class="flabel">At launch</div>
+          <div class="fvalue">4,000+ restaurants from published lists · MICHELIN Guide · Asia's 50 Best · Tabelog Award · Black Pearl · long-running local institutions</div>
+        </div>
+        <div class="fact">
+          <div class="flabel">Platforms</div>
+          <div class="fvalue">iOS app &amp; web · coming soon</div>
+        </div>
+        <div class="fact">
+          <div class="flabel">Built with</div>
+          <div class="fvalue">React · TypeScript · Tailwind CSS · Firebase · Capacitor</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROBLEM ===================== -->
+<section id="problem" style="border-top:1px solid var(--line)">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="pink-dot"></span>Why It Matters</div>
+    <h2 class="section-title">The Problem</h2>
+    <p class="section-italic">Travelers don't lack reviews. They lack reviews they can trust.</p>
+    <div class="list-block">
+      <div class="list-item">
+        <div class="num">01.</div>
+        <div><h3>Stars Without a Source</h3><p>A 4.5 from someone who loves everything and a 4.5 from someone who's hard to impress look identical on every map app.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">02.</div>
+        <div><h3>Tourist Traps Look Great Online</h3><p>Busy, photogenic places near landmarks collect huge rating counts from one-time visitors — while the spots locals actually go back to get buried.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">03.</div>
+        <div><h3>One Ranking for Everyone</h3><p>Some travelers want the best food at any price; others want big portions, great value, or a beautiful room. A single average can't serve all of them.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURE 01 — PICKY SCORE ===================== -->
+<div class="divider" id="picky-score">
+  <div class="divider-copy">
+    <div class="eyebrow">Feature 01</div>
+    <div class="pname">Picky Score</div>
+    <div class="psub">Know how picky every reviewer is — including you</div>
+    <div class="rule"></div>
+    <div class="ptag">10 travel scenarios · 2 minutes · 0–100 score</div>
+  </div>
+  <div class="divider-panel">
+    <div class="pnum">01</div>
+    <div class="pcaption">PICKY SCORE</div>
+  </div>
+</div>
+
+<section class="subsection" id="how">
+  <div class="wrap reveal">
+    <div class="eyebrow">Picky Score — 01</div>
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-italic">Rate ten meals from across Asia — a salty bowl of Tokyo ramen, an overpriced hotel dim sum, a noisy Hanoi pho shop. How you rate them tells us how you rate everything.</p>
+    <div class="flow">
+      <div class="step">Rate 10<br>Travel Meals</div>
+      <div class="arrow">&rarr;</div>
+      <div class="step">Picky Score<br>(0–100)</div>
+      <div class="arrow">&rarr;</div>
+      <div class="step">Every Review Shows<br>Its Reviewer's Score</div>
+      <div class="arrow">&rarr;</div>
+      <div class="step final">"Picky-Approved"<br>Places Rise</div>
+    </div>
+    <div class="flow-label">Your result also shows</div>
+    <div class="chip-row">
+      <span>The Flavor Purist</span>
+      <span>The Portion Patrol</span>
+      <span>The Value Hunter</span>
+      <span>The Atmosphere Seeker</span>
+      <span>The Service Stickler</span>
+      <span>The Easy Traveler</span>
+    </div>
+  </div>
+</section>
+
+<section class="subsection" id="inside">
+  <div class="wrap reveal">
+    <div class="eyebrow">Picky Score — 02</div>
+    <h2 class="section-title">Inside the App</h2>
+    <p class="section-italic">Two minutes from "how many stars would you give this?" to a score that follows every review you write.</p>
+    <div class="phones three">
+      <figure>
+        <img src="assets/app_test.png" alt="Picky test — a Hanoi pho shop scenario rated from one to five stars" loading="lazy">
+        <figcaption><span>01</span>Rate ten travel meals</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/app_score.png" alt="My Picky Score — 71 out of 100, Picky Palate" loading="lazy">
+        <figcaption><span>02</span>Get your Picky Score</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/app_picky_first.png" alt="Reviews for a restaurant, pickiest reviewers first, each tagged Local or Traveler with their Picky Score" loading="lazy">
+        <figcaption><span>03</span>Read the pickiest first</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<div class="stat-split subsection">
+  <div class="stat-copy">
+    <div class="eyebrow">Picky Score — 03</div>
+    <h2 class="section-title" style="font-size:30px">What Travelers See</h2>
+    <div class="list-block">
+      <div class="list-item">
+        <div class="num">01.</div>
+        <div><h3 style="font-size:17px">Pickiest reviewers first</h3><p>Reviews are ordered by how hard the reviewer is to impress — not by how many stars they gave.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">02.</div>
+        <div><h3 style="font-size:17px">Everyone vs. picky locals</h3><p>Two ratings side by side. When the crowd loves a place and picky locals don't, it gets an "Overhyped?" flag.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">03.</div>
+        <div><h3 style="font-size:17px">Local or visiting</h3><p>Each review says whether the author lives there or was traveling — so you know whose taste you're reading.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="stat-panel">
+    <div class="big">60+</div>
+    <div class="sub">Picky Score that makes a reviewer count as "picky"</div>
+    <div class="cap">THE PICKY LINE</div>
+  </div>
+</div>
+
+<!-- ===================== FEATURE 02 — FOR YOU ===================== -->
+<div class="divider" id="for-you">
+  <div class="divider-copy">
+    <div class="eyebrow">Feature 02</div>
+    <div class="pname">Best for You</div>
+    <div class="psub">A personal match score for every restaurant</div>
+    <div class="rule"></div>
+    <div class="ptag">Taste · Portion · Value · Vibe · Service</div>
+  </div>
+  <div class="divider-panel">
+    <div class="pnum">02</div>
+    <div class="pcaption">BEST FOR YOU</div>
+  </div>
+</div>
+
+<div class="ba-split subsection">
+  <div class="ba-copy">
+    <div class="eyebrow">Best for You — 01</div>
+    <h2 class="section-title" style="font-size:28px">Same Budget, Better Fit</h2>
+    <div class="lbl">Map apps</div>
+    <div class="row">One average star rating for every kind of traveler.</div>
+    <div class="row">Two places at the same price look the same — even if one has a lovely room and the other is a rushed canteen.</div>
+    <div class="row">Sort by rating, then scroll and guess.</div>
+  </div>
+  <div class="ba-panel">
+    <div class="lbl">SuperPickyAsians</div>
+    <div class="row">Tell us what matters: taste, portion size, value, atmosphere, service.</div>
+    <div class="row">Each place gets a match % for you — within your budget ($ Budget to $$$$ Splurge).</div>
+    <div class="row">"74% match · #1 of 17 splurge places in Beijing — strong on taste &amp; vibe."</div>
+  </div>
+</div>
+
+<section class="subsection">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="pink-dot"></span>Best for You — 02</div>
+    <h2 class="section-title" style="font-size:30px">From Your Taste to a Shortlist</h2>
+    <p class="section-italic">Before any reviews exist, scores are estimated from what's known about a place — awards, price level, signature dish, market stall or hotel dining room. As picky reviews come in, they take over.</p>
+    <div class="flow">
+      <div class="step">What Matters<br>to You</div>
+      <div class="arrow">&rarr;</div>
+      <div class="step">Place Scores<br>(Facts + Picky Reviews)</div>
+      <div class="arrow">&rarr;</div>
+      <div class="step">Match %<br>per Restaurant</div>
+      <div class="arrow">&rarr;</div>
+      <div class="step final">Your<br>Must-Eats</div>
+    </div>
+  </div>
+</section>
+
+<section class="subsection">
+  <div class="wrap reveal">
+    <div class="eyebrow">Best for You — 03</div>
+    <h2 class="section-title">Inside the App</h2>
+    <p class="section-italic">What you're picky about becomes a match score on every restaurant — and a short list of must-eats in the city you're visiting.</p>
+    <div class="phones three">
+      <figure>
+        <img src="assets/app_picky_about.png" alt="What you're picky about — The Flavor Purist, with a breakdown across taste, portion, value, atmosphere and service" loading="lazy">
+        <figcaption><span>01</span>See what you're picky about</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/app_place.png" alt="Restaurant page for Xin Rong Ji in Beijing — local-language name, awards and a 74% match" loading="lazy">
+        <figcaption><span>02</span>A match % on every place</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/app_musteats.png" alt="Your must-eats in Tokyo — ranked picks with match percentages" loading="lazy">
+        <figcaption><span>03</span>Your must-eats, city by city</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURE 03 — COMMUNITY ===================== -->
+<div class="divider" id="community">
+  <div class="divider-copy">
+    <div class="eyebrow">Feature 03</div>
+    <div class="pname">Community</div>
+    <div class="psub">Long reads from people who know where to eat</div>
+    <div class="rule"></div>
+    <div class="ptag">Invited writers · Founding picky locals · Tagged places</div>
+  </div>
+  <div class="divider-panel">
+    <div class="pnum">03</div>
+    <div class="pcaption">COMMUNITY</div>
+  </div>
+</div>
+
+<div class="phone-split subsection">
+  <div class="phone-split-copy">
+    <div class="eyebrow">Community — 01</div>
+    <h2 class="section-title">Stories, Not Just Stars</h2>
+    <div class="list-block">
+      <div class="list-item">
+        <div class="num">01.</div>
+        <div><h3>Invited Writers</h3><p>Neighborhood guides, dish deep-dives and "worth the trip" stories — with cover photos, and every restaurant tagged so you can jump straight to it.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">02.</div>
+        <div><h3 class="accent">Founding Picky Locals</h3><p>A small group of demanding locals who give the first ratings in each city. Their reviews carry a Founding badge.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">03.</div>
+        <div><h3>Photos, Likes &amp; Comments</h3><p>Reviewers add up to three photos; readers like and discuss stories.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">04.</div>
+        <div><h3>Safe by Design</h3><p>Everyone agrees to the community guidelines before posting. Any review, comment or story can be reported, and anyone can be blocked in one tap.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="phone-split-panel">
+    <img src="assets/app_community.png" alt="Community tab — long-form stories from picky locals" loading="lazy">
+  </div>
+</div>
+
+<!-- ===================== ACROSS ASIA ===================== -->
+<div class="stat-split subsection" id="asia">
+  <div class="stat-copy">
+    <div class="eyebrow">Across Asia at Launch</div>
+    <h2 class="section-title">A Head Start</h2>
+    <p class="section-italic" style="margin-bottom:28px">We start from places with an outside signal of quality — then let picky locals tell you which ones deserve it.</p>
+    <div class="datasets">
+      <div class="dataset">
+        <div class="dnum">735</div>
+        <h4>Michelin-starred</h4>
+        <p>Latest MICHELIN Guide editions</p>
+        <div class="rule short"></div>
+      </div>
+      <div class="dataset">
+        <div class="dnum">878</div>
+        <h4>Bib Gourmand</h4>
+        <p>Great food at a fair price — street food included</p>
+        <div class="rule short"></div>
+      </div>
+      <div class="dataset">
+        <div class="dnum">87</div>
+        <h4>Asia's 50 Best</h4>
+        <p>Entries in the 2026 top 100</p>
+        <div class="rule short"></div>
+      </div>
+    </div>
+    <div class="list-block" style="margin-top:20px">
+      <div class="list-item">
+        <div class="num">+</div>
+        <div><h3 style="font-size:17px">Michelin-selected, local lists &amp; institutions</h3><p>1,500+ MICHELIN-selected restaurants, plus Tabelog Award, Black Pearl, Tatler Best and other well-known local lists — and 130+ long-running institutions, some more than a century old.</p></div>
+      </div>
+    </div>
+    <div class="chip-row cities">
+      <span>Seoul</span><span>Busan</span><span>Jeju</span><span>Tokyo</span><span>Osaka</span><span>Kyoto</span><span>Fukuoka</span>
+      <span>Taipei</span><span>Tainan</span><span>Kaohsiung</span><span>Hong Kong</span><span>Shanghai</span><span>Beijing</span><span>Chengdu</span>
+      <span>Bangkok</span><span>Chiang Mai</span><span>Phuket</span><span>Hanoi</span><span>Ho Chi Minh City</span><span>Da Nang</span><span>Singapore</span>
+      <span>Kuala Lumpur</span><span>Penang</span><span>Bali</span><span>Jakarta</span><span>Manila</span><span>Cebu</span><span>Mumbai</span><span>Delhi</span>
+    </div>
+  </div>
+  <div class="stat-panel">
+    <div class="big">4,000+</div>
+    <div class="sub">award-listed restaurants on day one</div>
+    <div class="cap">29 CITIES · 12 COUNTRIES</div>
+  </div>
+</div>
+
+<!-- ===================== FOR TRAVELERS ===================== -->
+<section id="travelers" style="border-top:1px solid var(--line)">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="pink-dot"></span>Made for Visitors</div>
+    <h2 class="section-title">For Travelers</h2>
+    <div class="list-block">
+      <div class="list-item">
+        <div class="num">01.</div>
+        <div><h3>Names in the Local Language</h3><p>Every place shows its name in the local script — 新荣记, 銀座 八五, เจ๊ไฝ — ready to show a taxi driver or the staff.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">02.</div>
+        <div><h3>Prices You Can Read</h3><p>Budget levels from $ to $$$$, local price where known, and a rough US-dollar figure.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">03.</div>
+        <div><h3>Practical Tags</h3><p>English menu · Card OK · Cash only · Walk-in OK · Near transit · Solo-friendly.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">04.</div>
+        <div><h3>Search, Then One Tap to the Map</h3><p>Search a city by name, dish or neighborhood. Every place opens in Google Maps, with the crowd's rating shown next to the picky one.</p></div>
+      </div>
+      <div class="list-item">
+        <div class="num">05.</div>
+        <div><h3>Bring Your Own Reviews</h3><p>Import the reviews you've already written on Google Maps, so your Picky Score starts on day one.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOUNDING LOCALS CTA ===================== -->
+<section id="founding" style="border-top:1px solid var(--line)">
+  <div class="wrap reveal">
+    <div class="eyebrow"><span class="pink-dot"></span>Join Us</div>
+    <h2 class="section-title">Become a Founding Picky Local</h2>
+    <p class="section-italic">Live in Seoul, Tokyo, Bangkok — or anywhere on our map — and hard to impress? Rate the places you know well (it takes minutes), and your ratings become the first ones travelers see, with a Founding badge. Food writers: we'd love your stories in the Community too.</p>
+    <div class="cta-row" style="margin-top:0">
+      <a class="cta solid" href="mailto:pixiefitscs@gmail.com?subject=Founding%20picky%20local%20%E2%80%94%20SuperPickyAsians">Apply as a Founding local</a>
+      <a class="cta" href="mailto:pixiefitscs@gmail.com?subject=Writing%20for%20SuperPickyAsians">Write for the Community</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CLOSING / CONTACT ===================== -->
+<div class="closing" id="contact">
+  <div class="closing-copy">
+    <div class="eyebrow">Contact &amp; Support</div>
+    <h2>Eat Like You<br>Live Here</h2>
+    <div class="lead">The iOS app is launching soon. Questions, feedback, or something to report? We read every message and act on reports within 24 hours.</div>
+    <div class="rule"></div>
+    <div class="contact-row email"><a href="mailto:pixiefitscs@gmail.com">pixiefitscs@gmail.com</a></div>
+    <div class="contact-row addr">Seoul, South Korea</div>
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Community Guidelines</a>
+    </div>
+  </div>
+  <div class="closing-panel">
+    <img class="closing-logo" src="assets/logo.png" alt="SuperPickyAsians">
+    <span class="cap">SEE YOU AT THE TABLE</span>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 SuperPickyAsians · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    <span>Award data from published guides · MICHELIN Guide, Asia's 50 Best and others</span>
+  </div>
+</footer>
+
+<a href="#home" class="top-link" id="topLink" aria-label="Back to top">&uarr;</a>
+
+<script src="script.js"></script>
+</body>
+</html>
